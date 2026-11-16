@@ -1,0 +1,31 @@
+.table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 10cm;
+    height: 10cm;
+}
+
+.table td {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 1.11cm;
+    height: 1.11cm;
+}
+
+.table tr:nth-child(3) td,
+.table tr:nth-child(6) td {
+    border-bottom: 3px solid black;
+}
+
+.table td:nth-child(3),
+.table td:nth-child(6) {
+    border-right: 3px solid black;
+}
+
+.borde {
+    border: 3px solid black;
+    width: 10cm;
+    margin: 0 auto;
+}

@@ -1,0 +1,8 @@
+{
+    "require": {
+        "php": ">=7.4",
+        "ext-mbstring": "*",
+        "ext-gd": "*",
+        "mpdf/mpdf": "^8.2"
+    }
+}
